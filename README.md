@@ -10,3 +10,14 @@ DomParserSchema.java file is the java file that is used to parse the data from t
 
 Save all the files into a same location of eclipse 
 Then just run the DomParserSchema.java file to see the output 
+
+# Description for DomParserDTD
+
+product.xml has the xml file that has all the data about a person
+product.dtd file has the definition of the xml file tags that defines the structure of all the tags used
+DomParserDTD.java file is the java file that is used to parse the data from the xml file and prints the output to the console by pulling the data from the xml file
+
+# instructions to run the file
+
+Save all the files into a same location of eclipse 
+Then just run the DomParserSchema.java file to see the output 
