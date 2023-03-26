@@ -20,4 +20,4 @@ DomParserDTD.java file is the java file that is used to parse the data from the 
 # instructions to run the file
 
 Save all the files into a same location of eclipse 
-Then just run the DomParserSchema.java file to see the output 
+Then just run the DomParserDTD.java file to see the output 
