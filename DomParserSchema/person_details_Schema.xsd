@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="person_details">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="first_name" type="xs:string"/>
+				<xs:element name="last_name" type="xs:string"/>
+				<xs:element name="weight">
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:float">
+								<xs:attribute name="scale" type="xs:string"/>
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+					</xs:element>
+				<xs:element name="shoe_size">
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:positiveInteger">
+								<xs:attribute name="device" type="xs:string"/>
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+					</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

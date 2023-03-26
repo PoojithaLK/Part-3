@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person_details xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemalocation="person_details.xsd">
+<first_name>Richard</first_name>
+<last_name>John</last_name>
+<weight scale="digital">55.0</weight>
+<shoe_size device="Brannock_device">18</shoe_size>
+</person_details>
